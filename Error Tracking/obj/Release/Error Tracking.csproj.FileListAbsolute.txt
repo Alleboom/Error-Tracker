@@ -1,0 +1,29 @@
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\bin\Release\Error Tracking.exe.config
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\bin\Release\Error Tracking.exe
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\bin\Release\Error Tracking.pdb
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\bin\Release\EntityFramework.dll
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\bin\Release\EntityFramework.xml
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\View\Error Pages\AddError.g.cs
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\View\Error Pages\DeleteError.g.cs
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\View\Error Pages\EditError.g.cs
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\View\MainWindow.g.cs
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\View\Software Pages\AddSoftware.g.cs
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\View\Software Pages\EditSoftware.g.cs
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\View\Software Pages\RemoveSoftware.g.cs
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\App.g.cs
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\Error Tracking_MarkupCompile.cache
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\Error Tracking_MarkupCompile.lref
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\View\Error Pages\AddError.baml
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\View\Error Pages\DeleteError.baml
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\View\Error Pages\EditError.baml
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\View\MainWindow.baml
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\View\Software Pages\AddSoftware.baml
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\View\Software Pages\EditSoftware.baml
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\View\Software Pages\RemoveSoftware.baml
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\Error Tracking.g.resources
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\Error_Tracking.Properties.Resources.resources
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\Error Tracking.csproj.GenerateResource.Cache
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\Error Tracking.exe
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\Error Tracking.pdb
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Release\Error Tracking.csprojResolveAssemblyReference.cache

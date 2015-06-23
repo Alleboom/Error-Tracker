@@ -1,0 +1,31 @@
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\bin\Debug\Database.mdf
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\bin\Debug\Database_log.ldf
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\bin\Debug\Error Tracking.exe.config
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\bin\Debug\Error Tracking.exe
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\bin\Debug\Error Tracking.pdb
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\View\Error Pages\AddError.baml
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\View\Error Pages\DeleteError.baml
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\View\Error Pages\EditError.baml
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\View\Error Pages\AddError.g.cs
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\View\Error Pages\DeleteError.g.cs
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\View\Error Pages\EditError.g.cs
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\View\MainWindow.g.cs
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\View\Software Pages\AddSoftware.g.cs
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\View\Software Pages\EditSoftware.g.cs
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\View\Software Pages\RemoveSoftware.g.cs
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\App.g.cs
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\Error Tracking_Content.g.cs
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\Error Tracking_MarkupCompile.cache
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\Error Tracking_MarkupCompile.lref
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\View\MainWindow.baml
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\View\Software Pages\AddSoftware.baml
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\View\Software Pages\EditSoftware.baml
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\View\Software Pages\RemoveSoftware.baml
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\Error Tracking.g.resources
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\Error_Tracking.Properties.Resources.resources
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\Error Tracking.csproj.GenerateResource.Cache
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\Error Tracking.exe
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\obj\Debug\Error Tracking.pdb
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\bin\Debug\Error Tracking.exe.CodeAnalysisLog.xml
+C:\Users\zacha46\documents\visual studio 2012\Projects\Error Tracking\Error Tracking\bin\Debug\Error Tracking.exe.lastcodeanalysissucceeded

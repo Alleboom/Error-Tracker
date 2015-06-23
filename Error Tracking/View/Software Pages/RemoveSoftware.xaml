@@ -1,0 +1,15 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ProgramViewModels="clr-namespace:Error_Tracking.ViewModel.ProgramViewModels" x:Class="Error_Tracking.View.Software_Pages.RemoveSoftware"
+        Title="Remove Software" Height="Auto" Width="300" Topmost="True" Icon="/Error Tracking;component/Et.ico" SizeToContent="Height">
+    <Window.DataContext>
+        <ProgramViewModels:RemoveSoftwareViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <StackPanel Margin="5">
+            <ListView ItemsSource="{Binding SoftwareList}" SelectedItem="{Binding SelectedSoftware, Mode=TwoWay}"  DisplayMemberPath="Name"/>
+            <Button Content="Remove" Command="{Binding Remove}" CommandParameter="" Margin="0,5,0,0" IsDefault="True"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,17 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ErrorViewModels="clr-namespace:Error_Tracking.ViewModel.ErrorViewModels" x:Class="Error_Tracking.View.Error_Pages.DeleteError"
+        Title="Delete Error" Height="Auto" Width="300" Topmost="True" Icon="/Error Tracking;component/Et.ico" SizeToContent="Height">
+    <Window.DataContext>
+        <ErrorViewModels:RemoveErrorViewModel/>
+    </Window.DataContext>
+    
+    <StackPanel Margin="5">
+        <Label Content="Software:" />
+        <ComboBox ItemsSource="{Binding SoftwareList}" SelectedItem="{Binding SelectedSoftware}"  Margin="0,0,0,5" DisplayMemberPath="Name"/>
+        <ListView ItemsSource="{Binding ErrorList}" SelectedItem="{Binding SelectedError, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" DisplayMemberPath="ErrorMessage"/>
+        <Button Command="{Binding Remove}" CommandParameter="" Content="Remove" VerticalAlignment="Bottom" IsDefault="True" Margin="0,5,0,0"/>  
+    </StackPanel>
+        
+</Window>

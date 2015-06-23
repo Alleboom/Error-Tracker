@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DatabaseModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="DatabaseModelStoreContainer">
+    <EntitySet Name="Errors" EntityType="DatabaseModel.Store.Errors" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Software" EntityType="DatabaseModel.Store.Software" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_SoftwareKey" Association="DatabaseModel.Store.FK_SoftwareKey">
+      <End Role="Software" EntitySet="Software" />
+      <End Role="Errors" EntitySet="Errors" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Errors">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ErrorMessage" Type="text" Nullable="false" />
+    <Property Name="Resolution" Type="text" />
+    <Property Name="SoftwareKey" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Software">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="text" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_SoftwareKey">
+    <End Role="Software" Type="DatabaseModel.Store.Software" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Errors" Type="DatabaseModel.Store.Errors" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Software">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Errors">
+        <PropertyRef Name="SoftwareKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

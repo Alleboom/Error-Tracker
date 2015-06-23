@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DatabaseModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DatabaseEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Errors" EntityType="DatabaseModel.Error" />
+    <EntitySet Name="Softwares" EntityType="DatabaseModel.Software" />
+    <AssociationSet Name="FK_SoftwareKey" Association="DatabaseModel.FK_SoftwareKey">
+      <End Role="Software" EntitySet="Softwares" />
+      <End Role="Errors" EntitySet="Errors" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Error">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ErrorMessage" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Resolution" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="SoftwareKey" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Software" Relationship="DatabaseModel.FK_SoftwareKey" FromRole="Errors" ToRole="Software" />
+  </EntityType>
+  <EntityType Name="Software">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Errors" Relationship="DatabaseModel.FK_SoftwareKey" FromRole="Software" ToRole="Errors" />
+  </EntityType>
+  <Association Name="FK_SoftwareKey">
+    <End Role="Software" Type="DatabaseModel.Software" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Errors" Type="DatabaseModel.Error" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Software">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Errors">
+        <PropertyRef Name="SoftwareKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
